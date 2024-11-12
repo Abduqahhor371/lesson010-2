@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasbeh</title>
+</head>
+<body>
+    <style>
+ body{
+    background-image: url('./assets/10.webp');
+ }
+ .title{
+    width: 400px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 10lvb;
+    color: white;
+    margin-left: 500px;
+    margin-top: 100px;
+ }
+.count{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: rgb(4, 83, 4);
+    margin-left: 45%;
+}
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    font-weight: bolder;
+    font-size: 10vh;
+    color: white;
+}
+.inc__btn{
+    width: 100px;
+    height: 100px;
+    color: white;
+    background: rgb(4, 83, 4);
+    font-weight: bolder;
+    border: none;
+    font-size: 1.5em;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 70px;
+}
+.reset__btn{
+    width: 100px;
+    height: 100px;
+    color: white;
+    background: rgb(4, 83, 4);
+    font-weight: bolder;
+    border: none;
+    font-size: 1.5em;
+    border-radius: 50%;
+}
+    </style>
+
+    <h2 class="title">Subahanallah</h2>
+    <div class="count">
+        <h1 class="counter">0</h1>
+    </div>
+    <button class="inc__btn" onclick="inc()">Count</button>
+    <button class="reset__btn" onclick="reset()">Reset</button>
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
